@@ -1,0 +1,17 @@
+.flex-right{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.flex-between{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flex-around{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
