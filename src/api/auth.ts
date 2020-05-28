@@ -3,6 +3,7 @@ export class AuthManager {
    * @name AuthManager
    */
   constructor() {}
+  code:any
   get hasInfo() {
     return new Promise((resolve, reject) => {
       wx.getSetting({

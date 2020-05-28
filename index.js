@@ -1,5 +1,5 @@
 // template enter file
 
-export { AuthManager } from "./src/api_extend/auth"
+export { AuthManager } from "./dist/api/auth"
 
-export { RouteUtils } from "./src/api_extend/route"
+export { RouteUtils } from "./dist/api/route"
