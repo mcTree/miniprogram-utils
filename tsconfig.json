@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "moduleResolution":"node",
+    "target": "ESNext",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "lib":["ESNext"],
+    "types": ["miniprogram-api-typings"],
+    "module": "ES6"
+  },
+  "include": ["src/**/*"],
+}

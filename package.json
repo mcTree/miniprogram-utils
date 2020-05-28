@@ -1,16 +1,23 @@
 {
   "name": "@mcswift/miniprogram-utils",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "some tools for develop wechat miniprogram",
   "repository": "https://github.com/mcTree/miniprogram-utils.git",
   "author": "McSwift <publish@mcswift.pro>",
   "license": "MIT",
-  "miniprogram": "src",
+  "miniprogram": "dist",
   "publishConfig": {
     "access": "public"
   },
-  "files": [
-    "dist",
-    "src"
-  ]
+  "scripts": {
+    "build":"tsc",
+    "watch":"tsc --watch"
+  },
+  "devDependencies": {
+    "miniprogram-api-typings": "^2.11.0",
+    "typescript": "^3.9.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {}
 }
