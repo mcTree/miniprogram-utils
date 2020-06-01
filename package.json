@@ -1,6 +1,6 @@
 {
   "name": "@mcswift/miniprogram-utils",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "some tools for develop wechat miniprogram",
   "repository": "https://github.com/mcTree/miniprogram-utils.git",
   "author": "McSwift <publish@mcswift.pro>",
